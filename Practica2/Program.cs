@@ -57,6 +57,10 @@ namespace Practica2
 			float subtotal = cantidad_prod1 * Precio_prod1 + cantidad_prod2 * Precio_prod2 + cantidad_prod3 * Precio_prod3;
 			Console.WriteLine("El subtotal es: " +subtotal);
 			
+			/*Aqui nos da el iva*/
+		double iva = subtotal * 0.16;
+			Console.WriteLine("Este es el I.V.A: " +iva);
+			
 			Console.ReadKey(true);
 		}
 	}
