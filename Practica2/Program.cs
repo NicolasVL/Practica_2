@@ -14,11 +14,33 @@ namespace Practica2
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+		    /*Aqui pide los datos del primer producto*/
+			Console.WriteLine("Dame la cantidad de productos #1");
+			int cantidad_prod1 = int.Parse(Console.ReadLine());
+			Console.WriteLine("Dame la descripcion del producto #1");
+			String desc_prod1;
+			desc_prod1 = Console.ReadLine();
+			Console.WriteLine("Dame el precio unitario del producto #1");
+			int Precio_prod1 = int.Parse(Console.ReadLine());
 			
-			// TODO: Implement Functionality Here
+			/*Aqui pide los datos del segundo producto*/
+			Console.WriteLine("Dame la cantidad de productos #2");
+			int cantidad_prod2 = int.Parse(Console.ReadLine());
+			Console.WriteLine("Dame la descripcion del producto #2");
+			String desc_prod2;
+			desc_prod2 = Console.ReadLine();
+			Console.WriteLine("Dame el precio unitario del producto #2");
+			int Precio_prod2 = int.Parse(Console.ReadLine());
 			
-			Console.Write("Press any key to continue . . . ");
+			/*Aqui pide los datos del tercer producto*/
+			Console.WriteLine("Dame la cantidad de productos #3");
+			int cantidad_prod3 = int.Parse(Console.ReadLine());
+			Console.WriteLine("Dame la descripcion del producto #3");
+			String desc_prod3;
+			desc_prod3 = Console.ReadLine();
+			Console.WriteLine("Dame el precio unitario del producto #3");
+			int Precio_prod3 = int.Parse(Console.ReadLine());
+			
 			Console.ReadKey(true);
 		}
 	}
