@@ -50,8 +50,8 @@ namespace Practica2
 			                  desc_prod2 +"   "+ desc_prod3);
 			
 			/*Aqui da la lista de los productos*/ 
-			Console.WriteLine("Estos son los precios de los productos: " +"      "+ Precio_prod1 +"      "+
-			                 Precio_prod2 +"      "+ Precio_prod3);
+			Console.WriteLine("Estos son los precios de los productos: " +"      $"+ Precio_prod1 +"      $"+
+			                 Precio_prod2 +"      $"+ Precio_prod3);
 			
 			/*Aqui nos da el subtotal*/
 			float subtotal = cantidad_prod1 * Precio_prod1 + cantidad_prod2 * Precio_prod2 + cantidad_prod3 * Precio_prod3;
@@ -64,6 +64,8 @@ namespace Practica2
 			/*Aqui nos da el total de la operacion*/
 			double total = subtotal + iva;
 			Console.WriteLine("Este es el total: " +total);
+			
+			Console.WriteLine("GRACIAS POR USAR EL PROGRAMA.");
 			
 			Console.ReadKey(true);
 		}
