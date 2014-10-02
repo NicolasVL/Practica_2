@@ -58,8 +58,12 @@ namespace Practica2
 			Console.WriteLine("El subtotal es: " +subtotal);
 			
 			/*Aqui nos da el iva*/
-		double iva = subtotal * 0.16;
+		    double iva = subtotal * 0.16;
 			Console.WriteLine("Este es el I.V.A: " +iva);
+			
+			/*Aqui nos da el total de la operacion*/
+			double total = subtotal + iva;
+			Console.WriteLine("Este es el total: " +total);
 			
 			Console.ReadKey(true);
 		}
