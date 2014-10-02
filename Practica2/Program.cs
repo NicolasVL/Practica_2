@@ -41,6 +41,18 @@ namespace Practica2
 			Console.WriteLine("Dame el precio unitario del producto #3");
 			int Precio_prod3 = int.Parse(Console.ReadLine());
 			
+			/*Aqui da la lista de los productos*/
+			Console.WriteLine("Esta es la cantidad de productos: " +"           "+ cantidad_prod1 +"         "+
+			                  cantidad_prod2 +"         "+ cantidad_prod3);
+			
+			/*Aqui da la lista de los productos*/
+			Console.WriteLine("Esta es la descripcion de los productos: " +"   "+ desc_prod1 +"   "+
+			                  desc_prod2 +"   "+ desc_prod3);
+			
+			/*Aqui da la lista de los productos*/ 
+			Console.WriteLine("Estos son los precios de los productos: " +"      "+ Precio_prod1 +"      "+
+			                 Precio_prod2 +"      "+ Precio_prod3);
+			
 			Console.ReadKey(true);
 		}
 	}
